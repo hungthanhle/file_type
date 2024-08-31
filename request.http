@@ -1,0 +1,16 @@
+GET http://localhost:3000/charizard.png
+
+###
+GET http://localhost:3000/PokemonGo.csv
+
+###
+GET http://localhost:3000/send_a_file
+
+###
+GET http://localhost:3000/render_a_file
+
+###
+GET http://localhost:3000/users/new
+
+###
+GET http://localhost:3000/send_a_data
