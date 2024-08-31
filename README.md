@@ -30,3 +30,13 @@ $®^S^RS®çßG^A^@^TmiõØ<8c>õ^YS^LÚd§Ê.<97>U7¬(oÖ0^]^@Ã<96>ÝªOÈ>6{�
 *µ^HN2¥G^A^@^W^]8ùÅÐR,èÕåtú¡­iý7SMè<8e>òd^?><96><86>»<93>«S¬ 6Ua`Rx7I¯¢<9f>^^°^F<90><85>ZË)¬òwªî<88>Ç<91>¡µ3¶B*<90><89>C^C^^§^TÓy]<99>^Ux¨+I¾<9c>YÅ5<9d>^@:åãª^@ b<9e>Ê<8c>«pÒ^[^]g<8a>{ÐL^A2^Q³Ô <99><9c>êª]^\<9a><9f>A+\ÈÚ^Lô<85>K¦÷<80><9c><99>Ü~´t}r¾ÜûI4<98>5gX^F^STÞÑ(½åêÆöT¡¦Á<8f>a<93>[\&gk<9a>^E^K%#Û
 )G^A^@^XªúB-^Cq-RB®¾^@ÿïó<Ãx^Nþ^Sl^XþÆ^C^O<91>>^X<82>³£.C^?¼ P®^X<9f>µ<8d>^\}¨<99>¸Þ<93>ÕgGº<88>k²*êÐy÷<83>ÛYÀ^@^@^A^C^[ú`iNu¨·ÞÁóV$¬<9b>z/oê<9f>uØ¹^KV¤^GRx·Þ\]^@ÃN<94>4E©is«Ë)×T<86>Òô^MÑ^W¨ú. ^BÆ\^Q<90><98>x°^B^B^Z@t^Z<84>» ^O<88>¸A<84>2<89>¹ÊNN^UvÉJ ^N<89>¼^D^E<8d>^?÷=^XÛRhf-fÒ<84>µðf/=G^A^@^Y¸0^AÊ^Rî<87>³ ^Dá<89>4:ß<93>^R<83>(^Z<8b>D^MG<9c><9a>^X^FLj<9c><9d>é1­ä×Òà&ï ^A×k       ðj^@-LÉZõ<94>LC3.r^X^TU<85>¦-^O<9a>`g¼Ækìòº: 1)°^@UÜè
 ```
+  
+```
+/server_test$ rails s
+
+GET http://localhost:3000/charizard.png
+![image](./result6.png)
+
+GET http://localhost:3000/PokemonGo.csv
+![image](./result7.png)
+```
