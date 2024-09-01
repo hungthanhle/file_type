@@ -20,6 +20,10 @@ class UsersController < ActionController::Base
     send_data image.download, type: image.content_type
   end
 
+  def apk
+    send_file 'public/pgs.apk' # default download
+  end
+
   def new
     @user = User.new
   end

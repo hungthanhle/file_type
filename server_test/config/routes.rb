@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get 'send_a_file', to: 'users#send_a_file'
   get 'render_a_file', to: 'users#render_a_file'
   get 'send_a_data', to: 'users#send_a_data'
+  get 'apk', to: 'users#apk'
   post 'users/create_user', to: 'users#create_user'
 end
