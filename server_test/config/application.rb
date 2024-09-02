@@ -18,5 +18,15 @@ module ServerTest
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+    config.middleware.insert_before 0, Rack::Cors do
+      allow do
+        origins '*' # Thay thế '*' bằng domain cụ thể nếu cần thiết
+
+        resource '*',
+          headers: :any,
+          methods: [:get, :post, :put, :patch, :delete, :options, :head],
+          expose: ['Authorization'] # Thêm các header bạn cần expose
+      end
+    end
   end
 end
